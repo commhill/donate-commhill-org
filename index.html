@@ -61,15 +61,9 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP';
+      var PUBLISHABLE_KEY = 'pk_test_51LQnweFKhmXyvsVxHXNa2P5mfOg5fa42foUsAMKfm1vJkscB6BQ23XdVn0U1Ej2k15jED5F39pgeJSS3QNevb1AK009VdemjUC';
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
-
-      if (PUBLISHABLE_KEY === 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP') {
-        console.log(
-          'Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys'
-        );
-      }
 
       var stripe = Stripe(PUBLISHABLE_KEY);
 
