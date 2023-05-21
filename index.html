@@ -27,10 +27,6 @@
         <div class="masthead">
             <div class="masthead-content text-white">
                 <div class="container-fluid px-4 px-lg-0">
-                    <div class="alert alert-danger" role="alert">
-			 We are not yet accepting donations. This is just a test!<br />Please come back later.
-                    </div>
-
                     <h1 class="fst-italic lh-1 mb-4">Donate to the Communications Hill Neighborhood Association today.</h1>
                     <p class="mb-5">Lets improve our neighborhood together!</p>
                 </div>
@@ -40,13 +36,18 @@
         <!-- Donation widget -->
         <div class="donation-widget">
             <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
                 <iframe src="https://donorbox.org/embed/support-the-communications-hill-neighborhood-association" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
             </div>
         </div>
 
-        <!-- Bootstrap core JS-->
+        <!-- Donorbox widget -->
+        <script src="https://donorbox.org/widget.js" paypalExpress="false"></script>
+
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Other setup JS -->
+        <script src="js/main.js"></script>
 
     </body>
 </html>
